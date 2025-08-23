@@ -1,0 +1,47 @@
+# ------------------------------
+# PyCharm / IntelliJ
+# ------------------------------
+.idea/
+*.iml
+
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.ipynb_checkpoints/
+
+# ------------------------------
+# Jupyter
+# ------------------------------
+# Checkpointed notebook autosaves
+.ipynb_checkpoints/
+
+# Jupyter runtime files
+.jupyter/
+
+# ------------------------------
+# OS cruft
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Logs / caches
+# ------------------------------
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
