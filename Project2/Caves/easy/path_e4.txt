@@ -1,0 +1,19 @@
+GRID: 15x15
+ARROWS: 1
+PATH:
+(0,0)  B:F S:F
+(1,0)  B:F S:F
+(2,0)  B:F S:F
+(3,0)  B:F S:F
+(4,0)  B:F S:F
+(4,1)  B:F S:F
+(4,2)  B:F S:F
+(4,3)  B:F S:F
+(5,3)  B:F S:F
+(6,3)  B:F S:F
+(6,4)  B:F S:F
+(6,5)  B:F S:F
+(6,6)  B:F S:T
+
+QUERY: (7,6)
+RESOLUTION:RISKY

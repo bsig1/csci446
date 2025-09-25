@@ -1,0 +1,32 @@
+GRID: 30x30
+ARROWS: 5
+PATH:
+(0,0)  B:F S:F
+(1,0)  B:F S:F
+(2,0)  B:F S:F
+(3,0)  B:F S:T
+(4,0)  B:F S:F
+(4,1)  B:F S:T
+(4,2)  B:F S:F
+(5,2)  B:F S:T
+(6,2)  B:T S:F
+(7,2)  B:F S:F
+(7,3)  B:F S:T
+(7,4)  B:F S:F
+(6,4)  B:T S:F
+(5,4)  B:F S:T
+(5,5)  B:T S:F
+(5,6)  B:F S:F
+(6,6)  B:T S:F
+(7,6)  B:F S:F
+(8,6)  B:F S:F
+(9,6)  B:F S:T
+(10,6) B:F S:F
+(10,7) B:F S:T
+(10,8) B:F S:F
+(9,8)  B:F S:T
+(8,8)  B:F S:F
+(8,9)  B:F S:T
+
+QUERY: (9,9)
+RESOLUTION: RISKY

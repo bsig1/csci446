@@ -1,0 +1,62 @@
+GRID: 30x30
+ARROWS: 11
+PATH:
+(0,0)  B:F S:T
+(1,0)  B:F S:F
+(2,0)  B:F S:F
+(3,0)  B:F S:F
+(4,0)  B:F S:T
+(5,0)  B:F S:F
+(6,0)  B:F S:F
+(7,0)  B:F S:F
+(8,0)  B:F S:F
+(9,0)  B:F S:F
+(10,0) B:F S:T
+(11,0) B:F S:F
+(12,0) B:F S:T
+(13,0) B:F S:F
+(14,0) B:F S:T
+(15,0) B:F S:F
+(16,0) B:F S:F
+(16,1) B:F S:F
+(16,2) B:F S:F
+(16,3) B:F S:F
+(16,4) B:F S:F
+(16,5) B:F S:F
+(16,6) B:F S:F
+(16,7) B:F S:F
+(16,8) B:F S:F
+(16,9) B:F S:F
+(16,10) B:F S:F
+(16,11) B:F S:F
+(16,12) B:F S:T
+(16,13) B:F S:F
+(16,14) B:F S:F
+(15,14) B:F S:T
+(14,14) B:F S:F
+(14,15) B:F S:T
+(14,16) B:F S:F
+(15,16) B:F S:T
+(16,16) B:F S:F
+(16,17) B:F S:F
+(16,18) B:F S:F
+(16,19) B:F S:F
+(16,20) B:F S:F
+(15,20) B:F S:T
+(14,20) B:F S:F
+(14,21) B:T S:F
+(14,22) B:F S:T
+(15,22) B:F S:T
+(16,22) B:F S:T
+(17,22) B:F S:T
+(18,22) B:F S:F
+(19,22) B:F S:F
+(20,22) B:F S:F
+(20,21) B:F S:F
+(20,20) B:F S:T
+(19,20) B:F S:F
+(18,20) B:F S:F
+(17,20) B:F S:F
+
+QUERY: (17,21)
+RESOLUTION: SAFE

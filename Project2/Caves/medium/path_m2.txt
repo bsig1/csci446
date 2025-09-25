@@ -1,0 +1,19 @@
+GRID: 25x25
+ARROWS: 2
+PATH:
+(0,0)  B:F S:F
+(1,0)  B:F S:F
+(2,0)  B:F S:F
+(3,0)  B:F S:F
+(4,0)  B:F S:T
+(4,1)  B:F S:F
+(5,1)  B:F S:T
+(6,1)  B:F S:F
+(6,2)  B:F S:T
+(6,3)  B:F S:F
+(5,3)  B:F S:T
+(4,3)  B:F S:F
+(4,2)  B:F S:T
+
+QUERY: (5,2)
+RESOLUTION: UNSAFE

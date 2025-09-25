@@ -1,0 +1,10 @@
+GRID: 5x5
+ARROWS: 2
+PATH:
+(0,0) B:F S:F
+(1,0) B:F S:T
+(1,1) B:F S:F
+(0,1) B:F S:T
+
+QUERY: (0,2)
+RESOLUTION: UNSAFE
