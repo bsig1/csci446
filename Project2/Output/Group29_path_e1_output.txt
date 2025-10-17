@@ -1,0 +1,50 @@
+===== Wumpus World Logical Inference Report =====
+Puzzle File: C:\Users\mrsig\Desktop\csci446\Project2\Caves\easy\path_e1.txt
+
+== METRICS ==
+Facts in KB: 26
+Rules in KB: 7
+Resolutions: 250
+Unifications: 3661
+
+== FACTS USED ==
+- Wumpus((0, 2)) Wumpus((1, 1)) Wumpus((0, 0))
+- Not Wumpus((1, 0))
+- Not Pit((2, 1))
+- Not Pit((0, 0))
+- Safe((0, 1))
+- Not Breeze((1, 1))
+- Stench((0, 1))
+- Not Wumpus((0, 1))
+- Not Pit((1, 2))
+- Not Pit((0, 1))
+- Not Breeze((1, 0))
+- Not Stench((0, 0))
+- Wumpus((1, 1)) Wumpus((0, 0)) Wumpus((2, 0))
+- Not Pit((1, 1))
+- Stench((1, 0))
+- Not Pit((2, 0))
+- Not Wumpus((1, 2))
+- Safe((0, 0))
+- Not Stench((1, 1))
+- Not Wumpus((2, 1))
+- Not Pit((0, 2))
+- Not Breeze((0, 0))
+- Safe((1, 1))
+- Safe((1, 0))
+- Not Pit((1, 0))
+- Not Breeze((0, 1))
+
+== RULES / CLAUSES ==
+- Not Wumpus((1, 1)) Not Wumpus((0, 2)) Not Wumpus((0, 0))
+- Not Wumpus((1, 1)) Not Wumpus((0, 2)) Not Wumpus((2, 0))
+- Not Wumpus((0, 2)) Not Wumpus((0, 0)) Not Wumpus((2, 0))
+- Not Wumpus((1, 1)) Not Wumpus((0, 0)) Not Wumpus((2, 0))
+- Not Safe(x) Not Wumpus(x)
+- Wumpus(x) Safe(x) Pit(x)
+- Not Safe(x) Not Pit(x)
+
+== FINAL QUERY RESULT ==
+QUERY: (0, 2)
+Expected: UNSAFE
+Result: UNSAFE

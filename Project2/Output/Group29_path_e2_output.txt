@@ -1,0 +1,80 @@
+===== Wumpus World Logical Inference Report =====
+Puzzle File: C:\Users\mrsig\Desktop\csci446\Project2\Caves\easy\path_e2.txt
+
+== METRICS ==
+Facts in KB: 59
+Rules in KB: 4
+Resolutions: 1620
+Unifications: 42646
+
+== FACTS USED ==
+- Not Pit((2, 4))
+- Safe((2, 0))
+- Not Pit((2, 3))
+- Not Wumpus((1, 3))
+- Not Wumpus((1, 0))
+- Wumpus((1, 0)) Wumpus((3, 0)) Wumpus((2, 1))
+- Safe((1, 2))
+- Safe((2, 1))
+- Safe((1, 3))
+- Not Breeze((2, 0))
+- Not Pit((2, 1))
+- Not Pit((0, 0))
+- Not Wumpus((2, 3))
+- Not Pit((3, 1))
+- Wumpus((2, 2)) Wumpus((3, 3)) Wumpus((2, 4)) Wumpus((1, 3))
+- Not Breeze((2, 1))
+- Not Stench((1, 2))
+- Not Wumpus((2, 2))
+- Not Pit((2, 2))
+- Not Wumpus((0, 1))
+- Not Pit((1, 2))
+- Not Breeze((2, 3))
+- Stench((2, 0))
+- Not Pit((0, 1))
+- Not Wumpus((0, 3))
+- Not Breeze((1, 0))
+- Not Stench((0, 0))
+- Not Wumpus((1, 1))
+- Not Wumpus((3, 2))
+- Not Pit((1, 1))
+- Not Wumpus((1, 4))
+- Not Stench((2, 1))
+- Not Pit((2, 0))
+- Safe((2, 2))
+- Not Wumpus((2, 0))
+- Not Wumpus((1, 2))
+- Not Pit((3, 3))
+- Safe((0, 0))
+- Not Stench((1, 0))
+- Not Wumpus((2, 1))
+- Not Pit((0, 2))
+- Not Stench((2, 2))
+- Not Pit((3, 0))
+- Breeze((2, 2))
+- Not Breeze((0, 0))
+- Not Wumpus((0, 2))
+- Pit((3, 2)) Pit((1, 2)) Pit((2, 1)) Pit((2, 3))
+- Safe((2, 3))
+- Not Pit((0, 3))
+- Not Wumpus((0, 0))
+- Not Breeze((1, 3))
+- Not Breeze((1, 2))
+- Not Pit((1, 3))
+- Safe((1, 0))
+- Stench((2, 3))
+- Not Pit((1, 0))
+- Not Pit((1, 4))
+- Not Stench((1, 3))
+- Not Wumpus((3, 1))
+
+== RULES / CLAUSES ==
+- Not Wumpus((3, 0)) Not Wumpus((3, 3)) Not Wumpus((2, 4))
+- Not Safe(x) Not Pit(x)
+- Not Safe(x) Not Wumpus(x)
+- Wumpus(x) Safe(x) Pit(x)
+
+== FINAL QUERY RESULT ==
+QUERY: (2, 4)
+Expected: RISKY
+Result: RISKY
