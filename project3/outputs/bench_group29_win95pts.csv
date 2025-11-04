@@ -1,0 +1,2 @@
+query,trials,ve_wall_mean_s,ve_wall_std_s,ve_cpu_mean_s,ve_cpu_std_s,ve_peak_mean_mb,ve_peak_std_mb,g_wall_mean_s,g_wall_std_s,g_cpu_mean_s,g_cpu_std_s,g_peak_mean_mb,g_peak_std_mb,rmse_mean,rmse_std,gibbs_iters,burn_in,thin
+Problem3,5,0.0020464599998376797,0.00021224897270535363,0.0,0.0,0.01071929931640625,0.005767897953566204,94.7962659400002,3.46443070103894,94.275,3.392483649555293,0.23771820068359376,0.013597692147509161,0.8894582059436215,0.0,10000,1000,5

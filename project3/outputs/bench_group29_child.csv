@@ -1,0 +1,2 @@
+query,trials,ve_wall_mean_s,ve_wall_std_s,ve_cpu_mean_s,ve_cpu_std_s,ve_peak_mean_mb,ve_peak_std_mb,g_wall_mean_s,g_wall_std_s,g_cpu_mean_s,g_cpu_std_s,g_peak_mean_mb,g_peak_std_mb,rmse_mean,rmse_std,gibbs_iters,burn_in,thin
+XrayReport,5,0.001960980000148993,0.00017540519283402395,0.0,0.0,0.007229042053222656,0.001561792034454424,2.837162199999875,0.11557970738678085,2.859375,0.11981430945425509,0.0301483154296875,0.010980793406505578,0.028365250648697694,0.00946538690628132,1000,100,5
