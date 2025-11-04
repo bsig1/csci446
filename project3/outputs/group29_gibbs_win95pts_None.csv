@@ -1,12 +1,12 @@
 Problem1,Normal_Output,No_Output
-1.00,0.00
+x,x
 Problem2,OK,Too_Long
-0.00,1.00
+1.00,0.00
 Problem3,No,Yes
-1.00,0.00
+0.03,0.97
 Problem4,No,Yes
-0.00,1.00
+0.06,0.94
 Problem5,No,Yes
-1.00,0.00
+0.05,0.95
 Problem6,No,Yes
 1.00,0.00
