@@ -1,0 +1,11 @@
+Episodes logged: 1000
+Success rate: 1000/1000
+Avg steps: 304.02
+Min steps: 9
+Max steps: 5571
+Avg reward: -303.02
+Min reward: -5570.00
+Max reward: -8.00
+Avg crashes: 21.93
+Min crashes: 0
+Max crashes: 542
