@@ -1,0 +1,40 @@
+BirthAsphyxia, yes, no
+(0.09, 0.91)
+HypDistrib, Equal, Unequal
+(0.38, 0.62)
+HypoxiaInO2, Mild, Moderate, Severe
+(0.44, 0.35, 0.21)
+CO2, Normal, Low, High
+(0.28, 0.03, 0.68)
+ChestXray, Normal, Oligaemic, Plethoric, Grd_Glass, Asy/Patch
+(0.04, 0.03, 0.07, 0.32, 0.54)
+Grunting, yes, no
+(0.40, 0.60)
+LVHreport, yes, no
+(0.34, 0.66)
+LowerBodyO2, <5, 5-12, 12+
+(1.00, 0.00, 0.00)
+RUQO2, <5, 5-12, 12+
+(0.00, 0.00, 1.00)
+CO2Report, <7.5, >=7.5
+(0.00, 1.00)
+XrayReport, Normal, Oligaemic, Plethoric, Grd_Glass, Asy/Patchy
+(0.00, 0.00, 0.00, 0.00, 1.00)
+Disease, PFC, TGA, Fallot, PAIVS, TAPVD, Lung
+(0.03, 0.29, 0.29, 0.29, 0.08, 0.03)
+GruntingReport, yes, no
+(0.39, 0.61)
+Age, 0-3_days, 4-10_days, 11-30_days
+(0.76, 0.15, 0.09)
+LVH, yes, no
+(0.33, 0.67)
+DuctFlow, Lt_to_Rt, None, Rt_to_Lt
+(0.63, 0.28, 0.09)
+CardiacMixing, None, Mild, Complete, Transp.
+(0.04, 0.08, 0.65, 0.23)
+LungParench, Normal, Congested, Abnormal
+(0.49, 0.11, 0.40)
+LungFlow, Normal, Low, High
+(0.07, 0.54, 0.39)
+Sick, yes, no
+(0.31, 0.69)
